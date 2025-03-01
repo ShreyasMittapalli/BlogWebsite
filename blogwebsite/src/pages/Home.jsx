@@ -1,16 +1,27 @@
 import './Home.css'
+import { VscAccount } from "react-icons/vsc";
+import { SiBloglovin } from "react-icons/si";
+import { IoMdAddCircleOutline } from "react-icons/io";
 
 const Home = () => {
     return(
         <div className="home-container">
             <div className='header'>
-                <p>header</p>
+                <div className='logo'>
+                    <SiBloglovin className='logo-icon'/>
+                </div>
+                <div>
+                    <VscAccount className='user-icon'/>
+                </div>
             </div>
             <div className='content'>
-                <p>content</p>
+                <div className='btn-div'><button className='create-new'><IoMdAddCircleOutline /></button></div>
+                <div className='blog-cards'>
+
+                </div>
             </div>
             <div className='footer'>
-                <p>footer</p>
+                <p>All rights reserved Copyright act @ 2055 </p>
             </div>
         </div>
     )
