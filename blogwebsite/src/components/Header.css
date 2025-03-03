@@ -1,0 +1,20 @@
+.user-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown-menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
